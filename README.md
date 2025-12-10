@@ -1,129 +1,131 @@
 ⭐ Gregory Livingston – Applied AI Portfolio
 
-Welcome to my Applied Artificial Intelligence portfolio. This repository showcases my work from the Applied AI & Robotics Program at Houston Community College, with a focus on computer vision, AI-powered systems, and practical machine learning applications.
+Welcome to my Applied Artificial Intelligence Portfolio, a collection of my work from the Applied AI & Robotics Program at Houston Community College.
+This portfolio highlights my progress, skills, and projects in computer vision, machine learning, and intelligent systems development.
 
 👤 About Me
 
-My name is Gregory Livingston, and I am currently pursuing an A.A.S. in Artificial Intelligence and Robotics.
-I am passionate about developing intelligent robotic systems designed for land, sea, and air environments, supporting humans in completing tasks across all areas of life.
+My name is Gregory Livingston, and I am pursuing an A.A.S. in Artificial Intelligence and Robotics.
+I am passionate about designing intelligent robotic systems that operate across land, sea, and air to help people in real-world environments.
 
-My interests include advancing AI applications in:
+My interests include:
 
-Surgical & medical robotics
+🏥 Surgical and medical robotics
 
-Aerospace & autonomous flight systems
+✈️ Aerospace and autonomous flight systems
 
-Defense, safety, and critical infrastructure technologies
+🛡️ Defense, safety, and mission-critical robotics
 
-I am also pursuing a B.S. in Mechanical Engineering Technology (Mechatronics) to combine AI with engineering, hardware, and real-world robotics integration.
+I am also preparing for a B.S. in Mechanical Engineering Technology (Mechatronics) to combine AI with engineering and hardware integration.
 
 🧠 Technical Skills
-AI, ML & Computer Vision
+Artificial Intelligence & Computer Vision
 
-Image processing
+Image processing and pixel-level transformations
 
-Feature extraction & classical CV
+Classical ML for image classification
 
-Convolutional Neural Networks (CNNs)
+Neural Networks & Convolutional Neural Networks (CNNs)
 
-Transfer learning
+Transfer Learning
 
 Vision–Language Models (VLMs)
 
-Image captioning & multimodal AI
+Image captioning systems
+
+AI pipeline design and model evaluation
 
 Programming & Tools
 
 Python (NumPy, Pandas, Matplotlib)
 
-Jupyter Notebook, Google Colab
+Jupyter Notebook & Google Colab
 
 Hugging Face Transformers
 
 Git & GitHub
 
-Prompt engineering basics
+Prompt Engineering
 
 🛠️ Tools & Platforms
 
-Python
+🐍 Python
 
-Jupyter Notebook
+📓 Jupyter Notebook / Google Colab
 
-Google Colab
+🤗 Hugging Face Model Hub
 
-Hugging Face Models
+🐙 GitHub for version control
 
-GitHub Version Control
+🖼 Image datasets and testing utilities
 
-Image datasets & preprocessing utilities
+📘 Featured Course & Project
+Computer Vision – ITAI 1378
 
-📚 Featured Course & Projects
-📸 Computer Vision – ITAI 1378
+This course covered:
 
-Folder: ComputerVision-ITAI1378/
+Image processing fundamentals
 
-This course introduced foundational and advanced topics in computer vision, including:
+Machine learning for computer vision
 
-Classical image processing
+Convolutional Neural Networks
 
-Machine learning for images
+Object detection workflows
 
-CNN architectures
+Vision–Language Models and image captioning
 
-Object detection
+⭐ Final Project – VisionTalk: Image Captioning System
 
-Modern multimodal models
+📁 Project Folder:
+ComputerVision-ITAI1378/VisionTalk-Image-Captioning
 
-🔥 Featured Final Project
-VisionTalk – Image Captioning System
+VisionTalk is an AI system that generates natural-language captions from images using a pre-trained BLIP Vision–Language Model.
 
-Folder: VisionTalk-Image-Captioning
-
-A fully working vision–language system that generates captions from input images using a pre-trained BLIP model. This project demonstrates:
+The project demonstrates:
 
 Image preprocessing
 
-Vision–Language model inference
+Transformer-based inference
 
-Integration of deep learning with natural-language outputs
+Connecting visual input to text generation
 
-AI pipeline documentation and reproducibility
-
-This project brings together everything learned in the course — from neural networks to transformers.
+A complete, reproducible AI pipeline
 
 🗂️ Repository Structure
 Gregory-Livingston-Applied-AI-Portfolio/
-├── README.md                         # Main portfolio overview
+├── README.md                      # This file (portfolio overview)
 └── ComputerVision-ITAI1378/
-    ├── README.md                     # Course overview
+    ├── README.md                  # Course summary
     └── VisionTalk-Image-Captioning/
-        ├── README.md                 # Project-level documentation
+        ├── README.md              # Project documentation
         ├── VisionTalk_Image_Captioning.ipynb
-        └── results/                  # Screenshots & output visuals
+        └── results/               # Output screenshots & examples
 
-🔍 How to Explore My Work
+🔍 How to Navigate This Portfolio
+1️⃣ Start with the course overview:
 
-Start at the course folder:
-ComputerVision-ITAI1378/
+📁 ComputerVision-ITAI1378
 
-Open the final project:
-VisionTalk-Image-Captioning/
+2️⃣ View the final captioning project:
 
-View results and model outputs:
-results/ folder
+📁 VisionTalk-Image-Captioning
 
-Open the notebook:
-Run or view VisionTalk_Image_Captioning.ipynb for full code.
+3️⃣ Explore outputs in the results/ folder
 
-📫 Contact
+Screenshots will show example captions generated by the model.
 
-If you’d like to connect, collaborate, or learn more about my projects:
+4️⃣ Open the notebook
 
-Email: w216359933@student.hccs.edu
+Review code, explanations, and sample inference inside the .ipynb file.
 
-LinkedIn: https://www.linkedin.com/in/greglivin
+📬 Contact
 
-GitHub: https://github.com/GregLivin
+If you'd like to connect or learn more:
 
-Thank you for reviewing my portfolio!
+📧 Email: w216359933@student.hccs.edu
+
+🔗 LinkedIn: https://www.linkedin.com/in/greglivin
+
+🐙 GitHub: https://github.com/GregLivin
+
+Thank you for reviewing my Applied AI portfolio!
