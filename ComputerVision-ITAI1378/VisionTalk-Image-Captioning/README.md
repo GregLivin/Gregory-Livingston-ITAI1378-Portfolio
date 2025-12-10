@@ -1,7 +1,7 @@
 🖼️ VisionTalk – Image Captioning System
 
 VisionTalk is an AI system that generates natural-language captions from input images using a pretrained BLIP Vision–Language Model. It demonstrates how AI can interpret visual content and produce meaningful descriptions.
-
+---
 1. Problem Statement
 
 The goal of this project is to build a system that:
@@ -13,7 +13,7 @@ Extracts and understands key visual features
 Generates a descriptive caption
 
 This project applies core concepts from ITAI 1378 – Computer Vision, including neural networks, transfer learning, and vision–language modeling.
-
+---
 2. Approach
 
 The project uses a pretrained BLIP model from Hugging Face.
@@ -37,7 +37,7 @@ Notebook Location
 
 
 This keeps the portfolio clean and organized.
-
+---
 3. Folder Contents
 VisionTalk-Image-Captioning/
 ├── README.md               ← This file  
@@ -48,7 +48,7 @@ Contents:
 results/ — Saved sample captions & any generated images
 
 Notebook is stored separately in /notebooks for better organization
-
+---
 4. How to Run the Project
 A. Run in Google Colab (recommended)
 
@@ -79,14 +79,14 @@ jupyter notebook
 
 Open:
 VisionTalk_Image_Captioning.ipynb
-
+---
 5. Dataset / Images
 
 No dataset is required.
 
 The user uploads a single test image, which the model processes.
 Example images and output captions are stored inside the results/ folder.
-
+---
 6. Results
 
 Sample outputs include:
@@ -98,7 +98,7 @@ Displayed images
 Notes & observations
 
 These are available in the results/ directory.
-
+---
 7. What I Learned
 
 From building VisionTalk, I learned to:
