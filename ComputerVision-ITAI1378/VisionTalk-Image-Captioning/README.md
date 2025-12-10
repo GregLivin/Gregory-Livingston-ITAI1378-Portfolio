@@ -37,9 +37,9 @@ VisionTalk-Image-Captioning/
 ├── VisionTalk_Image_Captioning.ipynb
 ├── README.md
 └── results/
-Notebook – All code and explanations
+VisionTalk_Image_Captioning.ipynb – All code, explanations, and caption-generation steps
 
-results/ – Example images and captions
+results/ – Example images and generated captions
 
 4. How to Run
 A. Google Colab (recommended)
@@ -66,17 +66,17 @@ No large dataset is required.
 The system uses individual test images included in the notebook or saved in the results/ folder.
 
 6. Results
-Example outputs (images with captions) are stored inside the results folder.
+Example outputs (image + caption pairs) are stored in the results folder.
 
 7. What I Learned
 Through VisionTalk, I practiced:
 
 Using pretrained Vision–Language Models
 
-Applying Hugging Face tools
+Working with Hugging Face tools
 
-Connecting images to natural-language generation
+Connecting image inputs to text generation
 
-Documenting and organizing an AI mini-project
+Structuring and documenting an AI mini-project
 
 This project demonstrates my ability to build practical computer vision systems for my Applied AI portfolio.
