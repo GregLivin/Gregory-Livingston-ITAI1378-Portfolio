@@ -92,3 +92,33 @@ From this project, I gained experience in:
 ---
 
 ## 9. Files in This Folder
+VisionTalk-Image-Captioning/
+│
+├── README.md # Project overview and documentation
+├── VisionTalk_Image_Captioning.ipynb # Main image captioning notebook
+└── results/ # Sample outputs and generated captions
+└── (example images + results)
+
+
+---
+
+## 10. Future Improvements
+- Add support for multiple captions per image  
+- Compare BLIP with other models such as ViT-GPT2 or CLIP-based captioners  
+- Deploy as a simple web app interface  
+- Integrate speech output for accessibility  
+
+---
+
+## 11. Contact
+**Gregory Livingston**  
+Applied Artificial Intelligence & Robotics Student  
+Houston Community College  
+
+Email: w216359933@student.hccs.edu  
+LinkedIn: https://www.linkedin.com/in/greglivin/  
+GitHub Portfolio: *(link to your main repo)*  
+
+---
+
+
