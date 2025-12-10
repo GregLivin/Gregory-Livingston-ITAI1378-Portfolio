@@ -2,6 +2,7 @@
 
 Welcome to my Applied Artificial Intelligence Portfolio, a collection of my work from the Applied AI & Robotics Program at Houston Community College.
 This portfolio highlights my progress, skills, and projects in computer vision, machine learning, and intelligent systems development.
+___
 
 👤 About Me
 
@@ -17,7 +18,7 @@ My interests include:
 🛡️ Defense, safety, and mission-critical robotics
 
 I am also preparing for a B.S. in Mechanical Engineering Technology (Mechatronics) to combine AI with engineering and hardware integration.
-
+___
 
 
 🧠 Technical Skills
