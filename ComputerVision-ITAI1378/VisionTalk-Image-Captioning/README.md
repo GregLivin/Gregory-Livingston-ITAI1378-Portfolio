@@ -117,7 +117,7 @@ Houston Community College
 
 Email: w216359933@student.hccs.edu  
 LinkedIn: https://www.linkedin.com/in/greglivin/  
-GitHub Portfolio: *(link to your main repo)*  
+GitHub Portfolio: 
 
 ---
 
