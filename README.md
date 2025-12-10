@@ -3,8 +3,6 @@
 Welcome to my Applied Artificial Intelligence Portfolio, a collection of my work from the Applied AI & Robotics Program at Houston Community College.
 This portfolio highlights my progress, skills, and projects in computer vision, machine learning, and intelligent systems development.
 
-
-
 👤 About Me
 
 My name is Gregory Livingston, and I am pursuing an A.A.S. in Artificial Intelligence and Robotics.
