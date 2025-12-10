@@ -36,7 +36,6 @@ Notebook Location
 ../notebooks/VisionTalk_Image_Captioning.ipynb
 
 
-This keeps the portfolio clean and organized.
 ---
 3. Folder Contents
 VisionTalk-Image-Captioning/
