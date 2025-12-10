@@ -5,60 +5,58 @@ Throughout this course, I gained hands-on experience with the foundations and ad
 -
 🧠 What I Learned in This Course
 
-This course covered a full pipeline of computer vision skills, including:
+---
 
-Image fundamentals (pixels, channels, color spaces)
+## 📘 Course Modules Covered  
+This course introduced a full progression of computer vision concepts. Key modules included:
 
-Image processing and transformations
+### 🔹 Module 01 – Intro to Computer Vision  
+Tools, libraries, and platforms (Colab, GitHub, Jupyter)
 
-Classical machine learning for images
+### 🔹 Module 02 – Image Fundamentals & Processing  
+Pixels, color spaces, histograms, kernels, filtering, edge detection
 
-Neural networks for vision
+### 🔹 Module 03 – Classical ML for Vision  
+k-NN, SVMs, Decision Trees applied to CIFAR-10 & custom images
 
-Convolutional Neural Networks (CNNs)
+### 🔹 Module 04 – Neural Networks Basics  
+Perceptrons, activation functions, training loops
 
-Transfer learning for vision models
+### 🔹 Module 05 – Convolutional Neural Networks  
+Conv layers, pooling, feature extraction, CNN architectures
 
-Object detection workflows
+### 🔹 Module 06 – Transfer Learning & Object Detection  
+Faster R-CNN, ResNet, fine-tuning, Pascal VOC dataset
 
-Vision–Language Models (VLMs)
+### 🔹 Module 07 – Vision Transformers  
+Attention mechanisms, ViT models, image segmentation
 
-Image captioning and multimodal AI systems
+### 🔹 Module 08 – Visual Language Models  
+BLIP, CLIP, multimodal learning, image-to-text generation
 
-These skills prepared me to complete the final project shown below.
--
-⭐ Final Project – VisionTalk: Image Captioning System
+---
 
-Folder:
-📁 VisionTalk-Image-Captioning/
+## 🧪 Final Project Included in This Folder  
+The final project for this course is:
 
-My final project integrates all major concepts from the course into a single AI system that:
+### **🖼️ VisionTalk – Image Captioning System**  
+A BLIP-based vision-language model that:
 
-Accepts an input image
+- Accepts an uploaded image  
+- Extracts visual features  
+- Generates a natural-language caption  
+- Displays the image + predicted caption  
 
-Processes it using a BLIP Vision–Language Model
+Project folder:  
+`./VisionTalk-Image-Captioning/`
 
-Generates a natural-language caption describing the image
+It includes:
 
-This showcases the combination of deep learning, transformers, and multimodal AI.
+- Notebook (`.ipynb`)  
+- Project README  
+- `results/` folder with model outputs  
 
-👉 Open the project folder here:
-VisionTalk-Image-Captioning
+---
 
-📂 Folder Contents
-ComputerVision-ITAI1378/
-├── README.md
-└── VisionTalk-Image-Captioning/
-    ├── VisionTalk_Image_Captioning.ipynb
-    ├── README.md
-    └── results/
--
-▶️ Next Steps
+## 📁 Folder Structure
 
-1.Open VisionTalk-Image-Captioning
-
-2.Review the notebook
-
-3.View the example outputs in the results folder
-
-4.Explore how the model connects images and natural language
