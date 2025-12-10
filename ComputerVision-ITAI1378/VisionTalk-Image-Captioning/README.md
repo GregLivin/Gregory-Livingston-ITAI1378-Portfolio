@@ -1,124 +1,123 @@
-# VisionTalk: Image Captioning Program
+🎯 VisionTalk – Image Captioning System
 
-## 1. Project Overview
-VisionTalk is an image captioning system that generates natural-language descriptions for images by combining computer vision with language modeling. The goal of this project is to demonstrate how modern AI models interpret visual information and translate it into meaningful text.
+VisionTalk is an AI-powered image captioning system built using a BLIP Vision–Language Model.
+This project demonstrates how artificial intelligence can connect visual understanding with natural-language generation, producing captions that describe the content of an input image.
+-
+1. Problem Statement
 
-This work reflects concepts learned throughout the ITAI 1378 Computer Vision course and applies them in a real, functional system.
+Image captioning combines computer vision and natural language processing.
+The goal is to create a system that:
 
----
+Accepts an image
 
-## 2. Problem Statement
-Humans describe images effortlessly, but teaching a computer to do the same is a complex challenge.  
-Image captioning requires an AI model to:
+Understands its visual features
 
-1. Understand what is shown in the image  
-2. Extract meaningful visual features  
-3. Convert those features into coherent language  
+Generates a meaningful caption in natural language
 
-This project examines how a Vision-Language Model (VLM) bridges these two domains by combining image processing and natural-language generation.
+This project applies concepts learned throughout the course, including image preprocessing, neural networks, transfer learning, and multimodal AI.
+-
+2. Approach
 
----
+The captioning system is powered by a pretrained BLIP Vision–Language Model provided by Hugging Face.
 
-## 3. Approach
-I implemented an image captioning pipeline using the **BLIP Vision-Language Model** from Hugging Face. The notebook:
+The notebook performs the following steps:
 
-- Loads a pre-trained VLM  
-- Processes the uploaded image  
-- Extracts visual features  
-- Generates a natural-language caption  
+Load a pretrained BLIP processor and model
 
-The system demonstrates how deep learning techniques can be integrated to interpret images and produce descriptive text with minimal manual intervention.
+Accept an image input (uploaded or linked)
 
----
+Prepare and transform the image
 
-## 4. Methods and Technologies Used
+Run inference through the model
 
-### **Core Concepts**
-- Image processing  
-- Feature extraction  
-- Neural networks  
-- Convolutional Neural Networks (CNNs)  
-- Transformers  
-- Vision-Language modeling  
+Generate a descriptive caption
 
-### **Tools & Libraries**
-- Python  
-- Hugging Face Transformers  
-- BLIP (Bootstrapped Language-Image Pretraining)  
-- PyTorch  
-- Jupyter Notebook / Google Colab  
-- NumPy, Matplotlib, PIL  
+Display the original image and its caption
 
----
-
-## 5. Dataset Information
-This project does not require a custom dataset.  
-Images are provided by the user at runtime, and the model processes them directly.
-
-No public datasets (e.g., COCO, Pascal VOC) are uploaded to GitHub in order to follow data-handling guidelines.
-
----
-
-## 6. Results
-The model successfully generates captions that describe the content of user-uploaded images. The results demonstrate:
-
-- Accurate recognition of objects  
-- Ability to describe scenes in natural language  
-- Strong alignment between visual and linguistic representations  
-
-Sample output examples can be found in the **results** folder.
-
----
-
-## 7. How to Run the Notebook
-1. Open the Jupyter Notebook (`VisionTalk_Image_Captioning.ipynb`)  
-2. Install required libraries (Hugging Face Transformers, PyTorch)  
-3. Upload an image when prompted  
-4. Run all cells to generate a caption  
-
-The notebook is compatible with both local environments and Google Colab.
-
----
-
-## 8. Key Takeaways
-From this project, I gained experience in:
-
-- Working with pre-trained AI models  
-- Understanding how computer vision and NLP merge inside VLMs  
-- Formatting real-world AI inference pipelines  
-- Improving model outputs through testing and evaluation  
-- Documenting and organizing project work for a professional portfolio  
-
----
-
-## 9. Files in This Folder
+This project integrates everything learned in ITAI 1378, from image processing fundamentals to transformer-based AI.
+-
+3. Files in This Folder
 VisionTalk-Image-Captioning/
-│
-├── README.md # Project overview and documentation
-├── VisionTalk_Image_Captioning.ipynb # Main image captioning notebook
-└── results/ # Sample outputs and generated captions
-└── (example images + results)
+├── VisionTalk_Image_Captioning.ipynb   # Main notebook
+├── README.md                           # Project documentation
+└── results/                            # Sample outputs
 
 
----
+VisionTalk_Image_Captioning.ipynb
+The full notebook containing code, explanations, and example outputs.
 
-## 10. Future Improvements
-- Add support for multiple captions per image  
-- Compare BLIP with other models such as ViT-GPT2 or CLIP-based captioners  
-- Deploy as a simple web app interface  
-- Integrate speech output for accessibility  
+results/
+Screenshots of model outputs, such as images paired with generated captions.
+-
+4. How to Run the Notebook
+Option A – Run in Google Colab (Recommended)
 
----
+Open Google Colab
 
-## 11. Contact
-**Gregory Livingston**  
-Applied Artificial Intelligence & Robotics Student  
-Houston Community College  
+Upload the notebook or open it directly from GitHub
 
-Email: w216359933@student.hccs.edu  
-LinkedIn: https://www.linkedin.com/in/greglivin/  
-GitHub Portfolio:https://github.com/GregLivin/Gregory-Livingston-ITAI1378-Portfolio 
+Install dependencies:
 
----
+!pip install transformers timm pillow accelerate
 
 
+Upload an image or use one included in the notebook
+
+Run all cells in order
+
+Option B – Run Locally
+
+Install Python 3.8 or higher
+
+Install dependencies:
+
+pip install transformers timm pillow accelerate
+
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+
+Open the notebook and run all cells
+-
+5. Dataset and Images
+
+This project does not require a large dataset.
+It uses standalone images for testing caption generation.
+
+If images are added:
+
+Keep them small
+
+Place them in the notebook or results/ folder
+
+Provide citation if sourced externally
+-
+6. Results & Examples
+
+Screenshots and output examples are saved in the results/ folder.
+
+These show:
+
+Input images
+
+Captions generated by the model
+
+Any additional visualizations produced during testing
+-
+7. What I Learned
+
+Through this project I gained experience with:
+
+Working with Vision–Language Models (VLMs)
+
+Running pretrained models with Hugging Face
+
+Connecting images to text generation
+
+Structuring a complete AI mini-project
+
+Documenting outputs for a professional portfolio
+
+This project reflects my progress in the Applied AI & Robotics Program and serves as a foundation for future multimodal and robotics applications.
