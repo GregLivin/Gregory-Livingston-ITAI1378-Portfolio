@@ -83,6 +83,7 @@ Vision–Language Models and image captioning
 
 📁 Project Folder:
 ComputerVision-ITAI1378/VisionTalk-Image-Captioning
+***
 
 VisionTalk is an AI system that generates natural-language captions from images using a pre-trained BLIP Vision–Language Model.
 
