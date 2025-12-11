@@ -134,6 +134,14 @@ Click below to watch the system generate image captions in real time:
 🔗 **Demo Video Link:** [https:](https://1drv.ms/v/c/7baa2f5495f5f43a/IQDgUFE07mURQ7QihWTFtRkuAZcNK8aFoQCBin4jDfUEK1A?e=0XNCfr)
 
 ---
+---
+
+## 🎥 Demo Video (Final Project)
+
+Click below to watch the 3-minute demo of the VisionTalk Image Caption Generator:
+
+🔗 **Demo Video Link:**  
+https://1drv.ms/v/c/7baa2f5495f5f43a/IQDgUFE07mURQ7QihWTFtRkuAZcNK8aFoQCBin4jDfUEK1A?e=0XNCfr
 
 ---
 📬 Contact
