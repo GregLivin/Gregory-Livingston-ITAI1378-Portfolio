@@ -131,7 +131,7 @@ Review code, explanations, and sample inference inside the .ipynb file.
 
 Click below to watch the system generate image captions in real time:
 
-🔗 **Demo Video Link:** https:
+🔗 **Demo Video Link:** [https:](https://1drv.ms/v/c/7baa2f5495f5f43a/IQDgUFE07mURQ7QihWTFtRkuAZcNK8aFoQCBin4jDfUEK1A?e=0XNCfr)
 
 ---
 
